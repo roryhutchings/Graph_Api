@@ -6,14 +6,6 @@ const { graphqlExpress } = require("apollo-server-express");
 const schema = require("./schema/schema");
 const app = express();
 
-//app.use('/graphql',bodyParser.json(),graphqlExpress({
-//schema,
-//graphiql:true,
-//playground: true,
-//introspection: true,
-
-//}));
-
 //App information uses graphiql , use http://localhost:4000/graphql to access
 //TODO:Fix apollo
 app.use(
